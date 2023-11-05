@@ -1,15 +1,17 @@
-﻿# blog-chef-2.0
-goto api -
-> npm i |
-> npm run dev
+# ﻿blog-chef-2.0
+## Setting up environment
 
-Go to client - 
-> npm i |
-> npm start
+Once the repo is cloned in the local machine ,
+>In the api folder ,type 
+>**npm i**
+>**npm run dev**
+>In the client folder, 
+>**npm i**
+>**npm start**
 
-API contains the build folder already included
-
-- Create .env file and declare
-
-MONGO_URL=`your - mongoDBURL`
-PORT=5000
+# Configure mongoDB
+>Create a **.env file** in the root directory.
+> Provide your own **URL** to connect to mongoDB.
+> As shown below
+>**MONGO_URL**=`your - mongoDBURL`
+>**PORT=5000**
