@@ -8,3 +8,8 @@ Go to client -
 > npm start
 
 API contains the build folder already included
+
+- Create .env file and declare
+
+MONGO_URL=`your - mongoDBURL`
+PORT=5000
